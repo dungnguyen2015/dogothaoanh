@@ -1,0 +1,18 @@
+User-agent: AhrefsBot
+disallow: /
+
+User-agent: MJ12bot
+disallow: /
+
+User-agent: rogerbot
+disallow: /
+
+User-agent: *
+Sitemap: http://trungdienlanh.com/sitemap.xml
+Disallow: /mobile/
+Disallow: /m/
+Disallow: /admin/
+
+
+
+

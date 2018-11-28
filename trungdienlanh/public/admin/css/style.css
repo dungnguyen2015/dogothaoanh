@@ -1,0 +1,698 @@
+@import "bootstrap.min.css";
+html, body, .top-menu, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+
+}
+html, body, a {
+font-size: 14px;
+font-family: 'MyriadPro', Arial, sans-serif;
+color: #333;
+}
+
+.bgcolor-main {
+background-color: #f906de;
+}
+header.wrap-main {
+width: 100%;
+display: inline-block;
+}
+a.logo-main {
+display:inline-block;
+margin-top:4px;
+}
+.wrap-h1 {
+background-color: #91288F;
+width: 100%;
+height: 12px;
+}
+
+.wrap-h1 h1{
+display: none;
+}
+.container {
+width: 100%;
+max-width: 990px;
+}
+.rb {
+float: right;
+}
+.head-link {
+
+display: inline-block;
+}
+.head-link li{
+
+float: left;
+}
+.w-header-top {
+
+width: 100%;
+background-color: #282828;
+display: inline-block;
+height: 60px;
+}
+
+
+.input-key input{
+
+    width: 300px !important;
+}
+li.form-search-link {
+    padding: 0;
+    margin-right: 10px;
+}
+
+li.shopping-cart-link a, li.login-link a {
+
+    display: block;
+    width: 140px;
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.shopping-cart-link a:hover, li.login-link a:hover {
+
+    background-color: red;
+    opacity: 0.6;
+}
+
+li.shopping-cart-link, li.login-link{
+    text-transform: uppercase;
+}
+li.phone {
+    background-color: red;
+    text-align: center;
+    width: 206px;
+    height: 60px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.phone .txt1 {
+    margin-top: 6px;
+}
+
+li.shopping-cart-link, li.login-link a{
+    display: block;
+}
+div.menu-main-headed {
+    height: 42px;
+    line-height: 44px;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(41, 19, 0, 0.1);
+    -moz-box-shadow: 0 2px 2px rgba(41, 19, 0, 0.1);
+    -webkit-box-shadow: 0 2px 2px rgba(41, 19, 0, 0.1)
+}
+.top-menu > li {
+    height: 39px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.top-menu > li:hover {
+
+    border-bottom: 2px solid  #91288F;
+}
+.top-menu > li > a {
+    line-height: 35px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.top-menu > li:last-child {
+    float: right;
+    padding: 0;
+    line-height: 40px;
+    margin-right: 0;
+}
+.top-menu > li:last-child:hover {
+
+    border: none;
+}
+.step-buying li {
+    width: 23%;
+    line-height: 20px;
+    color: #929191;
+}
+.step-buying {
+    height: 60px;
+    line-height: 60px;
+}
+.banner {
+    width: 100%;
+    display: inline-block;
+}
+.banner > div:first-child {
+    width: 69%;
+    float: left;
+}
+.banner > div img {
+border: 1px solid #ccc;
+width: 100%;
+}
+
+.banner > div a.view-click:before {
+    background: #333;
+    display: block;
+    content: "";
+    opacity: 0.7;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+}
+
+a.view-click:after {
+    background: red;
+    display: block;
+    content: "CLICK XEM";
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+.banner a{
+    display: block;
+    position: relative;
+}
+.banner > div:last-child {
+    width: 30%;
+    float: right;
+}
+.banner > div:last-child > div:first-child {
+margin-bottom: 6px;
+}
+.w-main {
+    margin-top: 15px;
+    width: 100%;
+    height: 1000px;
+    display: inline-block;
+}
+.w-left{
+    float: left;
+    width: 22%;
+}
+.w-main-content{
+    display: inline-block;
+    width: 78%;
+    padding-left: 7px;
+}
+
+.main-menu {
+    width: 100%;
+    line-height: 20px;
+    padding-bottomm: 10px;
+}
+.main-menu > li:first-child {
+    text-transform: uppercase;
+    position: relative;
+    background-color: #c91d67;
+    padding-left: 40px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: #fff;
+}
+.main-menu > li:first-child .line3{
+    display: block;
+    width: 14px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.main-menu > li:first-child .line3:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top:8px ;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+}
+.main-menu > li:first-child .line3:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top:4px ;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+}
+.main-menu > li:not(:first-child){
+    padding: 5px 10px;
+    position: relative;
+    border-left: 1px solid #c91d67;
+    border-right: 1px solid #c91d67;
+}
+
+.main-menu > li:last-child{
+
+    border-bottom: 1px solid #c91d67;
+
+}
+
+.main-menu li a {
+
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+
+.main-menu > li:not(:first-child) ul{
+
+    display: none;
+}
+.main-menu > li:not(:first-child):hover  {
+
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border-right: none;
+}
+.child-menu {
+    position: absolute;
+    top: 0;
+    right: -180px;
+    font-weight: normal;
+    min-width: 180px;
+    z-index: 100;
+    background: #fff;
+}
+.child-menu li {
+
+    padding: 5px 10px;
+    border-right: 1px solid #c91d67;
+}
+
+.child-menu li:first-child {
+
+    border-top: 1px solid #c91d67;
+}
+.child-menu li:last-child {
+
+    border-bottom: 1px solid #c91d67;
+}
+
+.child-menu li:hover a {
+
+    color: #c91d67;
+}
+.title-header{
+    display: inline-block;
+    height: 28px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.title-header li {
+    display: inline-block;
+    float: left;
+    line-height: 28px;
+    background: #c91d67;
+
+}
+.title-header li a{
+
+    color: #fff;
+}
+.title-header li:first-child {
+
+    background: url(../img/left_tilr_sanpham_center.jpg) no-repeat !important;
+    width: 35px;
+    height: 28px;
+}
+.title-header li:last-child {
+
+    background: url(../img/title_sanpham_center.jpg) no-repeat !important;
+    width: 15px;
+    height: 28px;
+}
+.item-p {
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+}
+.item-p li > div{
+
+    border: 1px solid #ccc;
+    margin-bottom: 7px;
+    min-height: 333px;
+}
+.item-p li > div:hover{
+
+border: 2px solid #c91d67;
+
+}
+
+.item-p li > div > p:first-child{
+
+position: relative;
+}
+.item-p li img{
+
+    width: 100%;
+}
+.desc {
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    width: 100%;
+}
+.desc > p:first-child {
+
+display: inline-block;
+width: 100%;
+text-align: center;
+min-height: 55px;
+}
+.price {
+display: inline-block;
+width: 100%;
+margin-top: 7px;
+}
+.price > span:first-child {
+color: #c91d67;
+font-weight: bold;
+float: left;
+position: relative;
+}
+.price > span:last-child {
+color: #ccc;
+float: right;
+margin-right: 10px;
+position: relative;
+text-decoration: line-through;
+}
+.price > span sub {
+position: absolute;
+top: -5px;
+right: -11px;
+}
+.thump-sale {
+background: url(../img/thumb.png) no-repeat !important;
+width: 54px;
+height: 54px;
+display: block;
+top:0;
+right: 0;
+position: absolute;
+color: #fff;
+font-weight: bold;
+font-size: 15px;
+text-align: center;
+line-height: 50px;
+}
+.step-buying > li::before {
+content: "";
+background: url(../img/ico_sprt.svg) no-repeat !important;
+float: left;
+display: block;
+margin-right: 30px;
+background-size: 296px 150px !important;
+
+}
+.step-buying > li.step1::before {
+width: 19px;
+height: 21px;
+background-position: 20% 0% !important;
+}
+
+.step-buying > li.step2::before {
+width: 25px;
+height: 21px;
+background-position: 27% 0% !important;
+}
+.step-buying > li.step3::before {
+width: 21px;
+height: 21px;
+background-position: 37% 0% !important;
+}
+.step-buying > li.step4::before {
+    width: 19px;
+    height: 21px;
+    background-position: 47% 0% !important;
+}
+.footer {
+    background: #eee;
+
+}
+.copyright {
+    background: #c91d67;
+    color: #fff;
+    font-size: 10px;
+}
+.copyright .container {
+    text-align: right;
+    line-height: 18px;
+}
+.footer-link {
+    width: 100%;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.footer-link li a {
+    font-size: 11px;
+}
+.step-card {
+
+    width: 100%;
+    display: inline-block;
+    border-top: 1px solid #ccc;
+    padding: 20px 0px;
+}
+.step-deliver li {
+
+    float: left;
+}
+.step-deliver li span:before{
+
+    content: "";
+    background: url(../img/icons-fd035e245c.png) no-repeat !important;
+    float: left;
+    display: block;
+    margin-right: 10px;
+
+
+}
+.step-deliver li span {
+    display: block;
+    float: left;
+}
+.step-deliver li div {
+    display: block;
+    float: left;
+}
+
+.step-deliver li div p{
+    color: #9d9d9d;
+}
+
+.step-deliver .step1 span:before{
+    width: 35px;
+    height: 43px;
+    background-position: 55% 28% !important;
+
+}
+.step-deliver li h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.step-deliver .step2 span:before{
+
+    width: 37px;
+    height: 43px;
+    background-position: 0% 101% !important;
+
+}
+.step-deliver {
+    display: inline-block;
+    width: 100%;
+}
+
+.step-deliver .step3 span:before{
+
+    width: 40px;
+    height: 26px;
+    background-position: 25% 86% !important;
+
+}
+
+.step-deliver .step4 span:before{
+
+    width: 37px;
+    height: 32px;
+    background-position: 26% 92% !important;
+}
+.f-connect {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+.f-connect > span{
+    display: block;
+    float: left;
+
+}
+.f-connect > span:first-child {
+    width: 15%;
+}
+.f-connect > span:last-child {
+    width: 85%;
+    border: 1px solid #333;
+    margin-top: 12px;
+}
+.social {
+    width: 100%;
+    display: inline-block;
+    margin-top: 7px;
+}
+.social a:before {
+
+    content: "";
+    background: url(../img/icons-be7a8871.svg) no-repeat !important;
+    float: left;
+    display: block;
+    margin-right: 5px;
+}
+
+.social .face:before {
+    width: 33px;
+    height: 32px;
+    background-position: 0% 65.7% !important;
+}
+
+.social .twister:before {
+    width: 33px;
+    height: 32px;
+    background-position: 0% 77.1% !important;
+}
+.social .linke:before {
+    width: 33px;
+    height: 32px;
+    background-position: 0% 71.4% !important;
+}
+.social .gplus:before {
+    width: 33px;
+    height: 32px;
+    background-position: 0% 67.6% !important;
+}
+.social .you:before {
+    width: 33px;
+    height: 32px;
+    background-position: 0% 79% !important;
+}
+.social .pin:before {
+    width: 33px;
+    height: 32px;
+    background-position: 0% 73.3% !important;
+}
+
+.title-h{
+    font-size: 15px;
+    font-weight: bold;
+}
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+.require{
+    color: red;
+    font-weight: bolder;
+}
+.wrap-btn-center{
+    text-align: center;
+}
+.wrap-content-ad{
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+.show-error {
+    line-height: 20px;
+    margin: 5px 0;
+    font-size: 12px;
+    color: red;
+}
+.success_message{
+    width: 100%;
+    display: inline-block;
+    color: #00CC00;
+    margin: 10px 0;
+
+}
+
+.post-product img{
+    width: 80%;
+    border: 1px solid #ccc;
+}
+
+.list-pro{
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+table tr{
+    line-height: 22px;
+
+}
+table td {
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+}
+table thead {
+    font-weight: bold;
+}
+.w-add-new{
+    width: 100%;
+    display: inline-block;
+}
+.w-add-new a{
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    background: #c91d67;
+    color: #fff;
+}
+.wrap-order-detail div:first-child, .wrap-order-detail div:last-child {
+    width: 50%;
+    float: left;
+}
+
+.wrap-order-detail div:first-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+.wrap-order-detail {
+    line-height: 21px;
+}
+.list-pro select {
+    padding: 3px 0px;
+    margin: 5px;
+}
